@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DARMY</title>
+    <link rel="stylesheet" href="/DARMY.3a01df49.css">
+    <style>body {
+  text-align: center;
+  color: #000;
+  text-shadow: 2px 2px 4px #00000080;
+  background-color: #fff;
+  margin-top: 100px;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.background-image {
+  max-width: 70%;
+  max-height: 70%;
+  width: auto;
+  height: auto;
+  z-index: -1;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h1 {
+  color: #000;
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+
+button {
+  color: #fff;
+  cursor: pointer;
+  background-color: #ff4081;
+  border: none;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  transition: background-color .3s;
+  box-shadow: 0 2px 4px #0000004d;
+}
+
+button:hover {
+  background-color: #ff2d6e;
+}
+
+</style>
+  </head>
+  <body>
+    <nav id="header" class="navbar navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand">Accounts</a>
+        <div id="account" class="d-flex"></div>
+      </div>
+    </nav>
+
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2 id="modalTitle"></h2>
+        <input type="text" id="addressInput" placeholder="Enter Ethereum Address">
+        <button id="modalBtn">Submit</button>
+        <p id="modalResult"></p>
+      </div>
+    </div>
+    
+    <div class="container">
+      <img class="background-image" src="/BTS.eb6ecaf4.jpg" alt="Background Image">
+      <h1>DARMY</h1>
+      <button id="checkInBtn">Check In</button>
+      <button id="buyTicketBtn">Buy Ticket</button>
+      <button id="getGradeBtn">Get Grade</button>
+      <button id="give10TokensBtn">Give 10 Tokens</button>
+      <button id="give100TokensBtn">Give 100 Tokens</button>
+      <button id="getPermanentTokensBtn">Get Permanent Token Count</button>
+      <button id="getPurchaseTokensBtn">Get Purchase Token Count</button>
+      <button id="getTicketsBtn">Get User Tickets</button>
+      <div id="userTicketsContainer"></div>
+    </div>
+
+    <script src="/DARMY.3d214d75.js" defer=""></script>
+  </body>
+</html>
